@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * The template for displaying all lectures
+ * The template for displaying all sales
  * @package WPShipyard
  * @since 1.0
  */
@@ -64,6 +64,7 @@ get_header();
     <?php endif; ?>  
         
     </div>
+</div>
 </div>
 
 <?php get_footer(); ?>

@@ -2,9 +2,7 @@ $(function(){
    readyFn();
    
    add_to_nav();
-   
-   add_cart_to_nav();
-   
+
 });
 
 

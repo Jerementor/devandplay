@@ -51,7 +51,7 @@ li {
 }
 
 .dap_brand:hover {
-  color: #035e8a;
+  color: #000;
 }
 
 .navbar {
@@ -95,11 +95,6 @@ li {
 
 .dap_nav_link.dap_join:active {
   border-bottom-style: none;
-}
-
-.dap_primary_banner {
-  background-color: #f13d52;
-  color: #fff;
 }
 
 .dap_secondary_header {
@@ -176,11 +171,6 @@ li {
   padding-bottom: 10px;
   float: right;
   text-align: right;
-}
-
-.text-block {
-  display: block;
-  float: right;
 }
 
 .dap_top_link {
@@ -279,21 +269,6 @@ li {
   text-decoration: none;
 }
 
-.dap_screencast_add_cart {
-  width: 100%;
-  padding: 10px 25px;
-  border-style: none none solid;
-  border-width: 1px 1px 4px;
-  border-color: #27b866 #27b866 #198648 #011a0c;
-  border-radius: 4px;
-  background-color: rgba(0, 186, 81, .73);
-  color: #fff;
-  font-size: 1.25rem;
-  line-height: 1.33em;
-  font-weight: 600;
-  text-align: center;
-}
-
 .dap_sale_text {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -376,10 +351,12 @@ li {
   background-color: #1d1d1d;
 }
 
-.section-140-sides.dap_secondary_banner {
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  background-color: #fafafc;
+.dap_cart {
+  position: relative;
+  left: 510px;
+  display: inline-block;
+  float: left;
+  clear: none;
 }
 
 @media (max-width: 767px) {
@@ -391,5 +368,9 @@ li {
   .dap_screencast_link {
     padding-right: 40px;
     padding-left: 40px;
+  }
+  .dap_cart {
+    position: static;
+    float: none;
   }
 }

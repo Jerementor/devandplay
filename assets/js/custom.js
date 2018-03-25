@@ -19,13 +19,13 @@ function add_to_nav(){
     console.log('adding menu class');
 }
 
-function add_cart_to_nav(){
-    var get_cart = $('#menu-logged-in-menu > a.dap_top_link' || '#menu-logged-out-menu > a.dap_top_link');
+// function add_cart_to_nav(){
+//     var get_cart = $('#menu-logged-in-menu > a.dap_top_link' || '#menu-logged-out-menu > a.dap_top_link');
 
     
-    $(get_cart).first().prepend("hello worlds");
-    console.log('getting cart');
-}
+//     $(get_cart).first().prepend("hello worlds");
+//     console.log('getting cart');
+// }
 
 // function appendText() {
 //     var txt1 = "<a class="dap_top_link dap_cart" href="<?php echo edd_get_checkout_uri(); ?>Cart (<span class="header-cart edd-cart-quantity"><?php echo edd_get_cart_quantity(); ?></span>)

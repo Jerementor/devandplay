@@ -3,7 +3,7 @@ $(function(){
    
    add_to_nav();
    
-   get_cart();
+   add_cart_to_nav();
    
 });
 

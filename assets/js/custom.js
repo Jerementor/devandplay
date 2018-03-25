@@ -20,7 +20,7 @@ function add_to_nav(){
 }
 
 function add_cart_to_nav(){
-    var get_cart = $('.dap_top_link');
+    var get_cart = $('#menu-logged-in-menu > a.dap_top_link' || '#menu-logged-out-menu > a.dap_top_link');
 
     
     $(get_cart).first().prepend("hello worlds");

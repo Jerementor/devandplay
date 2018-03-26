@@ -1,18 +1,4 @@
 <?php
-  
-//   function wdw_nav_wrap() {
-//     $new_nav_wrap  = '<ul id="%1$s" class="%2$s">';
-//     $new_nav_wrap .= '%3$s';
-//     $new_nav_wrap .= '<li class="menu-item">';
-//     $new_nav_wrap .= '<a href="' . edd_get_checkout_uri() . '">';
-//     $new_nav_wrap .= 'Cart (<span class="edd-cart-quantity">' . edd_get_cart_quantity() .'</span>)';
-//     $new_nav_wrap .= '</a>';
-//     $new_nav_wrap .= '</li>';
-//     $new_nav_wrap .= '</ul>';
-
-//     return $new_nav_wrap;
-    
-// }
 
 
   $defaults = array(

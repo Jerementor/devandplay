@@ -186,6 +186,10 @@ li {
   color: #000;
 }
 
+.dap_top_link.dap_cart {
+  left: 712px;
+}
+
 .dap_640 {
   display: block;
   width: 640px;
@@ -241,6 +245,7 @@ li {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   background-color: #fafafc;
+  text-align: center;
 }
 
 .dap_screencast_inverse_header {
@@ -353,7 +358,7 @@ li {
 
 .dap_cart {
   position: relative;
-  left: 585px;
+  left: 510px;
   display: inline-block;
   float: left;
   clear: none;
@@ -372,5 +377,12 @@ li {
   .dap_cart {
     position: static;
     float: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .section-80 {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }

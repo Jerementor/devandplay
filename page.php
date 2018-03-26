@@ -7,7 +7,7 @@
 get_header(); 
 ?>
 <!-- Page.php -->
-
+<div class="section-80">
     <div class="w-container">
 		<?php 
 		if ( have_posts() ) {
@@ -21,6 +21,6 @@ get_header();
 		?>
         
     </div>
-
+</div>
 
 <?php get_footer();

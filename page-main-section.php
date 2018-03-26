@@ -1,7 +1,7 @@
 <?php 
 /**
  * The template for displaying all pages
- * Template Name: Main Section
+ * Template Name: Main Section (No Sections)
  *
  * @since 1.0
  */

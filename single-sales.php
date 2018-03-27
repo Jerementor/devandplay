@@ -54,13 +54,11 @@ get_header();
                                     </div>
                                 <?php endif; ?>  
                                 
-                                <div class="dap_sale_text">
-                                     <?php if (get_field('sales_disclaimer')) :?>
-                                        <div class="embed-container">
-                                            <?php the_field('sales_disclaimer'); ?> 
-                                        </div>
-                                    <?php endif; ?>                          
-                                </div>
+                                 <?php if (get_field('sales_disclaimer')) :?>
+                                    <div class="embed-container">
+                                        <p class="dap_sale_text"><?php the_field('sales_disclaimer'); ?> </p>
+                                    </div>
+                                <?php endif; ?>                          
                                 
                       </div>                
                 </div>

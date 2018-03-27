@@ -12,9 +12,9 @@ get_header(); ?>
 <div class="w-container">
 	<header class="page-header">
 		<?php if ( have_posts() ) : ?>
-			<h1 class="dap_header"><?php printf( __( 'Search Results for: %s', 'Dev and Play' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+			<h1 class="dap_header"><?php printf( __( 'Search Results for: %s', 'devandplay' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 		<?php else : ?>
-			<h1 class="dap_header"><?php _e( 'Nothing Found', 'Dev and Play' ); ?></h1>
+			<h1 class="dap_header"><?php _e( 'Nothing Found', 'devandplay ); ?></h1>
 		<?php endif; ?>
 	</header>
 	

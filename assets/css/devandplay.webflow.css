@@ -308,21 +308,22 @@ li {
 
 .dap_button_large {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 1px solid #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #0075ad;
   border-radius: 3px;
   background-color: #fff;
   box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   color: #0071a7;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
 }
 
 .dap_button_large:hover {
-  background-color: hsla(0, 0%, 100%, .43);
+  border-color: #fff;
+  background-color: #003c58;
   color: #fff;
 }
 
@@ -407,6 +408,10 @@ li {
 
 .dap_screencast_salesimage {
   margin-bottom: 20px;
+}
+
+.dap_footer {
+  background-color: #3a3a3a;
 }
 
 @media (max-width: 767px) {

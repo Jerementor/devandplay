@@ -81,8 +81,10 @@ fieldset#edd_profile_password_fieldset, fieldset#edd_profile_personal_fieldset {
 
 #edd_user_history {
     margin-bottom: 40px;
+    font-size: 17px;
 }
 
 .dap_small_disclaimer{
-    margin-top: 40px;
+    margin-top: 20px;
 }
+

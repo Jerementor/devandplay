@@ -277,7 +277,7 @@ li {
 .dap_sale_text {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -308,21 +308,22 @@ li {
 
 .dap_button_large {
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 1px solid #c8d0f9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #fff;
   border-radius: 3px;
-  background-color: rgba(87, 117, 235, .03);
+  background-color: #fff;
   box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   color: #0071a7;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
 .dap_button_large:hover {
-  background-color: rgba(87, 117, 235, .1);
+  background-color: hsla(0, 0%, 100%, .43);
+  color: #fff;
 }
 
 .section-80 {
@@ -358,10 +359,54 @@ li {
 
 .dap_cart {
   position: relative;
-  left: 695px;
+  left: 510px;
   display: inline-block;
   float: left;
   clear: none;
+}
+
+.dap_screencast_purchase {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0071a7;
+  background-image: -webkit-linear-gradient(266deg, #0071a7 35%, #004d72);
+  background-image: linear-gradient(184deg, #0071a7 35%, #004d72);
+  color: #fff;
+}
+
+.dap_centered_heading {
+  text-align: center;
+}
+
+.dap_radio {
+  width: 25px;
+  height: 24px;
+}
+
+.dap_field_label {
+  font-size: 19px;
+}
+
+.dap_radio_button {
+  font-size: 2em;
+}
+
+.dap_screencast_sales_card.dap_blue {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fafafc;
+  color: #000;
+  text-align: center;
+}
+
+.heading {
+  text-align: left;
+}
+
+.dap_screencast_salesimage {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {

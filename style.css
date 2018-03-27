@@ -60,3 +60,16 @@ Tags: epic blog
 #edd_checkout_form_wrap input[type=text], #edd_checkout_form_wrap input[type=email], #edd_checkout_form_wrap input[type=password], #edd_checkout_form_wrap input[type=tel], #edd_checkout_form_wrap textarea {
     padding: 10px;
 }
+
+p#edd_profile_display_name_wrap {
+    display: none;
+}
+
+legend#edd_profile_name_label, legend#edd_profile_password_label {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    background: #ffb800;
+    padding: 10px;
+    border-radius: 6px;
+}

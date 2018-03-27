@@ -47,5 +47,12 @@ Tags: epic blog
   padding: 20px;
 }
 
+#edd_checkout_form_wrap #edd-payment-mode-wrap label {
+    font-size: 20px;
+}
 
+#edd_checkout_form_wrap input[type=radio] {
+    height: 25px;
+    width: 25px;
+}
 

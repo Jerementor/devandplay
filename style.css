@@ -34,7 +34,7 @@ Tags: epic blog
   color: #fff;
 }
 
-.text.edd-input, .password.edd-input {
+.edd-input {
     background: #FFF;    
     color: #36312B;
     padding: 10px 8px 7px;

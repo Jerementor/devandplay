@@ -14,3 +14,23 @@ Tags: epic blog
     display: none;
 }
 
+.edd-submit.button.blue{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  color: #0071a7;
+  font-size: 16px;
+  text-align: center;    
+}
+
+.edd-submit.button.blue:hover {
+  background-color: hsla(0, 0%, 100%, .43);
+  color: #fff;
+}
+

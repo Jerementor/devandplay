@@ -44,25 +44,25 @@ get_header();
                      
             </div>
                     <div class="w-col w-col-4">
-                    <div class="dap_screencast_purchase">
-                        
-                            <h3 class="dap_centered_heading">Purchase Screencast</h3>
+                        <div class="dap_screencast_purchase">
                             
-                             <?php if (get_field('sales_shortcode')) :?>
-                                <div class="embed-container">
-                                    <?php the_field('sales_shortcode'); ?> 
-                                </div>
-                            <?php endif; ?>  
-                            
-                            <div class="dap_sale_text">
-                                 <?php if (get_field('sales_disclaimer')) :?>
+                                <h3 class="dap_centered_heading">Purchase Screencast</h3>
+                                
+                                 <?php if (get_field('sales_shortcode')) :?>
                                     <div class="embed-container">
-                                        <?php the_field('sales_disclaimer'); ?> 
+                                        <?php the_field('sales_shortcode'); ?> 
                                     </div>
-                                <?php endif; ?>                          
-                            </div>
-                            
-                  </div>                
+                                <?php endif; ?>  
+                                
+                                <div class="dap_sale_text">
+                                     <?php if (get_field('sales_disclaimer')) :?>
+                                        <div class="embed-container">
+                                            <?php the_field('sales_disclaimer'); ?> 
+                                        </div>
+                                    <?php endif; ?>                          
+                                </div>
+                                
+                      </div>                
                 </div>
         
        <?php endwhile; ?>

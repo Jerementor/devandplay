@@ -72,4 +72,9 @@ legend#edd_profile_name_label, legend#edd_profile_password_label {
     background: #ffb800;
     padding: 10px;
     border-radius: 6px;
+    text-align: center;    
+}
+
+fieldset#edd_profile_password_fieldset, fieldset#edd_profile_personal_fieldset {
+    margin-top: 20px;
 }

@@ -1,13 +1,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #333;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
 
 p {
   margin-bottom: 1.3em;
-  font-size: 16px;
   line-height: 1.5em;
 }
 
@@ -67,6 +66,7 @@ li {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: #727171;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -119,6 +119,7 @@ li {
   transition: background-color 200ms ease;
   direction: ltr;
   color: #0071a7;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -149,6 +150,7 @@ li {
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   color: #0071a7;
+  font-size: 14px;
 }
 
 .dap_button:hover {
@@ -178,6 +180,7 @@ li {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: #8a8a8a;
+  font-size: 14px;
   text-align: left;
   text-decoration: underline;
 }

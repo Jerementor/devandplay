@@ -134,16 +134,18 @@ div#mepr-account-nav {
 /*account page input*/
 input[name=mepr-account-form]{
 
-    height: 65px;
-    background-color: #23b0ff;;
-    width: 100%;
-    color: white;
-    cursor: pointer;
-    border: 1px solid #0075b7;
-    border-radius: 6px;
-    border-bottom-width: 4px;
-    border-bottom-color: #00659e;
-    transition: background-color 200ms ease;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #0075ad;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  color: #0071a7;
+  font-size: 17px;
+  text-align: center;  
 
 }
 
@@ -230,8 +232,9 @@ input[name=mepr-account-form]{
     margin-bottom: 10px;
 }
 
+
 /*Mepr submit account form (account page)*/
-.mepr-submit input[type=submit]{
+input.mepr-submit{
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -246,7 +249,7 @@ input[name=mepr-account-form]{
   text-align: center;  
 }
 
-.mepr-submit input[type=submit]:hover{
+.input.mepr-submit:hover{
   border-color: #fff;
   background-color: #003c58;
   color: #fff;

@@ -148,7 +148,7 @@ input[name=mepr-account-form]{
 }
 
 /*registration page*/
-input[type="submit"]{
+.mepr-submit input[type="submit"]{
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;

@@ -424,6 +424,10 @@ li {
   text-align: center;
 }
 
+.gfi_grey {
+  background-color: #fafafc;
+}
+
 @media (max-width: 767px) {
   .dap_960 {
     width: auto;

@@ -1,9 +1,9 @@
 /*
-Theme Name: Dev and Play [2018]
-Theme URI: https://www.devandplay.com
+Theme Name: Game Feel Ideas [2018]
+Theme URI: https://www.gamefeelideas.com
 Author: Jeremy Alexander
-Author URI: https://www.devandplay.com
-Description: The 2018 theme for game site (dev and play)
+Author URI: https://www.gamefeelideas.com
+Description: The 2018 theme for game site (Game Feel Ideas)
 Version: 1.0
 Text Domain: jerementor
 Tags: epic blog
@@ -88,3 +88,298 @@ fieldset#edd_profile_password_fieldset, fieldset#edd_profile_personal_fieldset {
     margin-top: 20px;
 }
 
+
+
+/*Memberpress*/
+/*Memberpress account Nav*/
+div#mepr-account-nav {
+    margin-top: 20px;
+}
+
+/*Form Inputs*/
+.mp_wrapper input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    height: 50px;
+    padding-left: 12px;
+    border: 1px solid #dfdfdf !important;    
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+/*Error Forms*/
+/*Updated*/
+.mepr_error, .mepr_updated {
+    padding: 15px 5px 15px 15px !important;
+    margin-bottom: 25px !important;
+    box-sizing: border-box !important;
+    width: 100%;
+}
+
+/*Flash updated*/
+.mepr_updated {
+    background-color: #def4c5 !important;
+    border: 1px solid #4d8c2e !important;
+}
+
+/*Invalid error*/
+.mepr-form input.invalid, .mepr-form select.invalid, .mepr-form textarea.invalid, .mepr-form label.mepr-checkbox-field.invalid, .mepr-form div.mepr-checkboxes-field.invalid, .mepr-form div.mepr-radios-field.invalid {
+    border: 2px solid #ffa2a2 !important;
+    background-color: #ffe4e4 !important;
+}
+
+/*#rcp-account-overview{*/
+/*    display: none;*/
+/*}*/
+
+/*account page input*/
+input[name=mepr-account-form]{
+
+    height: 65px;
+    background-color: #23b0ff;;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #0075b7;
+    border-radius: 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: #00659e;
+    transition: background-color 200ms ease;
+
+}
+
+/*registration page*/
+input[type="submit"]{
+    height: 65px;
+    background-color: #23b0ff;;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #0075b7;
+    border-radius: 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: #00659e;
+    transition: background-color 200ms ease;
+}
+
+/*Terms*/
+.mp_wrapper .mepr_price label, .mp_wrapper .mepr_price .mepr_price_cell {
+    display: inline !important;
+    font-size: 1.3em;
+    background: #fafafa;
+    color: #3d3d3d;
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+}
+
+.mp_wrapper .mp_invoice, .mp_price_str {
+    display: inline !important;
+    font-size: 1.3em;
+    background: #fafafa;
+    color: #3d3d3d;
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+}
+
+/*STRIPE*/
+.stripe_element_input {
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    padding: 20px !important;
+    border: 1px solid #dfdfdf;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+
+/*Payment method box*/
+.mp_wrapper .mepr_payment_method {
+    background-color: #fafafa !important;
+    border: 1px solid #ece7e7;
+    border-radius: 6px;
+}
+
+/*Payment radio buttons*/
+
+.mepr_payment_method input[type="radio"] {
+  /* Base Styles aka unchecked */
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.mepr_payment_method input[type="radio"]:not(:checked) {
+  /* Explicit Unchecked Styles */
+  border: 1px solid #ece7e7;
+  background: #fafafa;
+}
+
+.mepr_payment_method input[type="radio"]:checked {
+  /* Checked Styles */
+  opacity: 1;
+  transition: opacity 400ms ease;
+}
+
+/*Margin for registration form*/
+.mp_wrapper .mp-form-row {
+    margin-bottom: 20px;
+}
+
+/*Mp form label*/
+.mp-form-label{
+    margin-bottom: 10px;
+}
+
+/*Mepr submit account form (account page)*/
+.mepr-submit input[type=submit]{
+    height: 65px;
+    background-color: #23b0ff;;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #0075b7;    
+    border-radius: 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: #00659e;
+    transition: background-color 200ms ease;
+    margin-bottom: 20px;
+}
+
+.mepr-submit input[type=submit]:hover{
+    background-color: #008bff;
+}
+
+.mepr-submit input[type=submit]:active{
+ border-bottom-style: none;   
+}
+
+/*Mepr new password*/
+input[name="new-password-submit"]{
+    height: 65px;
+    background-color: #23b0ff;;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #0075b7;    
+    border-radius: 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: #00659e;
+    transition: background-color 200ms ease;
+}
+
+input[name="new-password-submit"]:hover{
+    background-color: #008bff;
+}
+
+input[name="new-password-submit"]:active{
+ border-bottom-style: none;   
+}
+
+/*mepr password strength*/
+.mp-nopass {
+    background: #fafafa;
+    border: 1px solid #ece7e7;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: #707071;
+}
+.mp-password-strength-display {
+    padding: 15px;
+    width: 100%;
+}
+
+.mp-weakpass {
+    background: #ffe2ca;
+    border: 1px solid #bb987b;
+    color: #3E0002;
+    border-radius: 6px;
+}
+
+.mp-mediumpass {
+    background: #dbfbde;
+    border: 1px solid #0e801b;
+    color: #292929;
+    border-radius: 6px;
+}
+.mp-strongpass {
+    background: #a1ffa9;
+    border: 1px solid #0e801b;
+    color: #292929;
+    border-radius: 6px;
+}
+
+/*Please fix the errors above - label*/
+.mp_wrapper .mepr-form-has-errors, .mp_wrapper .cc-error {
+    color: #d80000;
+    padding-left: 0px !important; 
+    font-weight: 700;
+}
+
+
+
+#mepr-account-home, #mepr-account-subscriptions, #mepr-account-payments{
+    color: #a3a3a3 !important;
+    text-decoration: none !important;
+    padding: 0px 20px 0px 0px;
+}
+
+.mepr-active-nav-tab {
+    color: #3d3d3d !important;
+}
+
+#mepr-nav-item a:hover  {
+    color: #3d3d3d;
+    transition: color 200ms ease;
+}
+
+#mepr-account-logout{
+ display: none;
+}
+
+div#mepr-account-nav {
+ /*text-align: center;*/
+}
+
+/*Mepr Change Password*/
+.mepr-account-change-password a{
+    color: #a3a3a3;
+    text-decoration: none;
+} 
+.mepr-account-change-password a:hover{
+    color: #3d3d3d;
+    transition: color 200ms ease;
+} 
+
+
+div#mepr-account-nav span .mepr-nav-item a{
+ color: #a3a3a3 !important;
+ text-decoration: none !important;    
+}
+
+div#mepr-account-nav span .mepr-nav-item a:hover{
+  color: #3d3d3d;
+  transition: color 200ms ease;
+}
+
+
+/*MEPR CORP ACCOUNTS*/
+div#mpca_import_sub_accounts input[type="checkbox"] {
+    margin: 10px;
+}
+
+div#mpca_import_sub_accounts input[type="file"], input[name="mcpa_sub_accounts_csv"]{
+    margin: 20px;
+}
+
+.mpca-fat-bottom {
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 20px;
+    background: #fafafa;
+    border: 1px solid #ece7e7;
+}
+
+#mcpa_export_sub_accounts{
+ color: #a3a3a3 !important;
+ text-decoration: none !important;     
+}

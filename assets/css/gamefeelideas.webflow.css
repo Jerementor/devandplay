@@ -221,6 +221,7 @@ li {
 }
 
 .dap_screencast_image.dap_screencast_green {
+  border-top-style: none;
   background-color: #00ba51;
 }
 
@@ -414,6 +415,7 @@ li {
 }
 
 .dap_footer {
+  height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #3a3a3a;
@@ -426,6 +428,109 @@ li {
 
 .gfi_grey {
   background-color: #fafafc;
+}
+
+.dap_screencast_popular {
+  background-color: #080808;
+  text-align: center;
+}
+
+.heading-2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  background-color: #007c36;
+  color: #fff;
+}
+
+.section-180 {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.section-180.gfi_black {
+  background-color: #000;
+  color: #fff;
+}
+
+.gfi_center_div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.heading-3 {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  color: #000;
+  line-height: 1.4em;
+  font-weight: 300;
+  letter-spacing: -2px;
+}
+
+.gfi_sub_heading {
+  margin-bottom: 0.6em;
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.dap_inverse_button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #0071a7;
+  border-radius: 3px;
+  background-color: hsla(0, 0%, 100%, .85);
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  color: #000;
+  font-size: 14px;
+}
+
+.dap_inverse_button:hover {
+  background-color: #fff;
+}
+
+.gfi_sub_heading_normal {
+  margin-bottom: 0.6em;
+  color: #000;
+  text-align: center;
+}
+
+.gfi_price {
+  text-transform: capitalize;
+}
+
+.image {
+  display: block;
+}
+
+.gfi_div {
+  margin-bottom: 20px;
+  padding: 40px;
+  border: 1px solid #eee;
+  background-color: #fafafc;
+}
+
+.image-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gfi_emoji_center {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  font-size: 76px;
+  text-align: center;
 }
 
 @media (max-width: 767px) {

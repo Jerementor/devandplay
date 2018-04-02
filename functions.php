@@ -38,7 +38,10 @@ function gamefeelideas_setup(){
 	) );
 }
 add_action( 'after_setup_theme', 'gamefeelideas_setup' );
-// remove_filter('the_content', 'wpautop');
+
+remove_filter('the_content', 'wpautop');
+
+
 add_post_type_support( 'page', 'excerpt' );
 
 // add_filter ('get_the_excerpt','gamefeelideas_filter_excerpt');

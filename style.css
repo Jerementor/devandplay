@@ -252,6 +252,7 @@ input.mepr-submit.mepr-share-button:hover{
   border-color: #fff;
   background-color: #003c58;
   color: #fff;
+  cursor: pointer;
 }
 
 .mepr-submit input[type=submit]:active{

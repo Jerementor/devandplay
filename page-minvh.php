@@ -1,13 +1,14 @@
 <?php 
 /**
  * The template for displaying all pages
- * Template Name: Main Template
+ * Template Name: Min-VH Template
  *
  * @since 1.0
  */
 get_header(); 
 ?>
-<!-- Main Section -->
+<!-- Min-VH -->
+<div class="section-minvh">
 		<?php 
 		if ( have_posts() ) {
 			while ( have_posts() ) {
@@ -18,5 +19,5 @@ get_header();
 			} // end while
 		} // end if
 		?>
-
+</div>
 <?php get_footer();

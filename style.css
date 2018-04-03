@@ -232,9 +232,8 @@ input[name=mepr-account-form]{
     margin-bottom: 10px;
 }
 
-
 /*Mepr submit account form (account page)*/
-input.mepr-submit{
+input.mepr-submit, input.mepr-submit.mepr-share-button {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -249,7 +248,7 @@ input.mepr-submit{
   text-align: center;  
 }
 
-.input.mepr-submit:hover{
+input.mepr-submit.mepr-share-button:hover{
   border-color: #fff;
   background-color: #003c58;
   color: #fff;

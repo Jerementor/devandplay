@@ -9,6 +9,7 @@ get_header();
 ?>
 
 <!-- Index.php -->
+<div class="section-minvh">
 <div class="section-80">
 	<div class="w-container">
     <h1 class="dap_header">All Articles</h1>
@@ -34,5 +35,6 @@ get_header();
 
 
 	</div>
+</div>
 </div>
 <?php get_footer(); ?>

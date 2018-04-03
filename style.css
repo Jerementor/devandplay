@@ -91,6 +91,10 @@ Tags: epic blog
 
 
 /*Memberpress*/
+div#mepr-account-welcome-message {
+    display: none;
+}
+
 /*Memberpress account Nav*/
 div#mepr-account-nav {
     margin-top: 20px;

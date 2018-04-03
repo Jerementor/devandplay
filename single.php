@@ -9,6 +9,7 @@ get_header();
 ?>
 
 <!--SINGLE.PHP-->
+<div class="section-minvh">
 <div class="section-80">
 <div class="w-container">
 <div class="dap_640">
@@ -30,6 +31,7 @@ get_header();
 		} // end if
 	?>
 
+</div>
 </div>
 </div>
 </div>

@@ -263,6 +263,28 @@ input.mepr-submit.mepr-share-button:hover{
  border-bottom-style: none;   
 }
 
+input.mepr-submit {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #0075ad;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  color: #0071a7;
+  font-size: 17px;
+  text-align: center;      
+}
+
+input.mepr-submit:hover {
+  border-color: #fff;
+  background-color: #003c58;
+  color: #fff;
+  cursor: pointer;    
+}
+
 /*Mepr new password*/
 input[name="new-password-submit"]{
   width: 100%;

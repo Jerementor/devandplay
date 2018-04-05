@@ -9,6 +9,8 @@ get_header();
 
 
 <!-- Category.php -->
+<div class="section-minvh">
+
 <div class="section-80">
 	<div class="w-container">
     <h1 class="dap_header"><?php single_cat_title(); ?></h1>
@@ -38,5 +40,6 @@ get_header();
 	<!--End Container-->
 </div>
 <!--End Section-->
-
+    
+</div>
 <?php get_footer(); ?>
